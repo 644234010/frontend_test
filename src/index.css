@@ -1,0 +1,9 @@
+.carousel-fixed-height {
+  height: 300px; /* ปรับตามต้องการ */
+  overflow: hidden;
+}
+.carousel-fixed-height img,
+.carousel-fixed-height video {
+  height: 100%;
+  object-fit: cover;
+}
